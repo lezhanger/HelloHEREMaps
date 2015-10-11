@@ -113,6 +113,7 @@ public class MainActivity extends Activity {
             // to reduce CPU consumption
             if (!paused) {
                 map.setCenter(position.getCoordinate(), Map.Animation.NONE);
+                //currlocation will now have the new spot
                 currLocation = position;
             }
         }
